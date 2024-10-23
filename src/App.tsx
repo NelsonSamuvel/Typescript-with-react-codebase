@@ -1,14 +1,9 @@
-import DisplayUser from "./04.Context-Api/DisplayUser";
-import User from "./04.Context-Api/User";
-import UserProvider from "./04.Context-Api/UserContext";
+import Cart from "./05.Reducer/Cart";
 
 const App = () => {
   return (
     <div>
-      <UserProvider>
-        <User />
-        <DisplayUser />
-      </UserProvider>
+      <Cart />
     </div>
   );
 };
