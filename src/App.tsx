@@ -1,17 +1,14 @@
-// import Counter from "./02.use-state-types/Counter";
-// import TodoList from "./02.use-state-types/TodoList";
-// import UserInfo from "./02.use-state-types/UserInfo";
-
-import ContactForm from "./03.forms,events,ref/ContactForm";
-import EventHandlers from "./03.forms,events,ref/EventHandlers";
-import FocusInput from "./03.forms,events,ref/FocusInput";
+import DisplayUser from "./04.Context-Api/DisplayUser";
+import User from "./04.Context-Api/User";
+import UserProvider from "./04.Context-Api/UserContext";
 
 const App = () => {
   return (
     <div>
-      <FocusInput />
-      <ContactForm />
-      <EventHandlers />
+      <UserProvider>
+        <User />
+        <DisplayUser />
+      </UserProvider>
     </div>
   );
 };
