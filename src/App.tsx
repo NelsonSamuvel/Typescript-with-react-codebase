@@ -1,9 +1,9 @@
-import Cart from "./05.Reducer/Cart";
+import FetchUsers from "./06.useEffect/FetchUsers";
 
 const App = () => {
   return (
     <div>
-      <Cart />
+      <FetchUsers />
     </div>
   );
 };
